@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 
 export default function Gallery() {
@@ -12,7 +12,7 @@ export default function Gallery() {
         <title>Gallery</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <div className='galleryWrapper'>
         <section className='galleryBanner'>
           <h1>Gallery</h1>
@@ -94,7 +94,7 @@ export default function Gallery() {
         </section>
         <div className='container'></div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

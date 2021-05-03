@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
@@ -18,7 +18,7 @@ export default function Home() {
         <title>Home</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <section className='secBanner'>
         <div
           id='carouselExampleFade'
@@ -455,7 +455,7 @@ export default function Home() {
           className='img-fluid contactBottomImg'
         />
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

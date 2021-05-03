@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useRouter } from 'next/router';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 
 export default function Testimonials() {
@@ -13,7 +13,7 @@ export default function Testimonials() {
         <title>Testimonials</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <section className='testimonialWrapper'>
         <ul className='scrollingImg list-unstyled'>
           <li>
@@ -227,7 +227,7 @@ export default function Testimonials() {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

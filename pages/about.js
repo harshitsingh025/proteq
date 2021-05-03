@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -16,7 +16,7 @@ export default function About() {
         <title>About Us</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <div className='aboutWrapper'>
         <section className='aboutBanner py-0'>
           <img src='img/aboutBanner.png' className='img-fluid' />
@@ -260,7 +260,7 @@ export default function About() {
           </div>
         </section>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

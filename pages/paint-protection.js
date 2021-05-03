@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -16,7 +16,7 @@ export default function PaintProtection() {
         <title>Paint Protection Film</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <div className='paintWrapper'>
         <section className='paintBanner'>
           <div className='container'>
@@ -486,7 +486,7 @@ export default function PaintProtection() {
           />
         </section>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

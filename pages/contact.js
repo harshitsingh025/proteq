@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useRouter } from 'next/router';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 
 export default function Contact() {
@@ -13,7 +13,7 @@ export default function Contact() {
         <title>Contact</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <section className='contactBanner'>
         <div className='container'>
           <h1>Get in touch With us</h1>
@@ -122,7 +122,7 @@ export default function Contact() {
           loading='lazy'
         ></iframe>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

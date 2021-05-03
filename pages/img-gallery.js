@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useRouter } from 'next/router';
-import Header from '../components/header';
-import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import Link from 'next/link';
 
 export default function ImgGallery() {
@@ -13,7 +13,7 @@ export default function ImgGallery() {
         <title>Img Gallery</title>
         <link rel='icon' href='/img/logo.svg' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <section className=''>
         <div className='container py-5'>
           <div className='demo-gallery mt-5'>
@@ -90,7 +90,7 @@ export default function ImgGallery() {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
